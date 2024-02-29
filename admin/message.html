@@ -82,10 +82,10 @@
     <body>
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="newadmin.php">Home</a>
-            <a href="subscribers.php">Subscribers</a>
-            <a href="status.php">Payment Status</a>
-            <a href="message.php">Message</a>
+            <a href="newadmin.html">Home</a>
+            <a href="subscribers.html">Subscribers</a>
+            <a href="status.html">Payment Status</a>
+            <a href="message.html">Message</a>
         </div>
         <div id="main">
             <!-- Use any element to open the sidenav -->
@@ -119,7 +119,7 @@
                         <tbody>
                              <?php 
 //error_reporting(0);
-include("connection.php");
+include("connection.html");
 $query="SELECT * FROM contact ";
 $data = mysqli_query($conn, $query);
 $total=mysqli_num_rows($data);
