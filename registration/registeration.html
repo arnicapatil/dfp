@@ -39,7 +39,7 @@ if(!empty($rfirstn)){
                                                 $sql = "INSERT INTO register (r_firstname, r_lastname, r_email, r_phone, user_id, sub, r_p1name, r_p2name, r_p1gender, r_p2gender, r_p1dob, r_p2dob, r_p1pincode, r_p2pincode, r_p1address, r_p2address)
                                                 values ('$rfirstn','$rlastn','$remail','$rphone','$ruserid','$rsub','$rp1name', '$rp2name', '$rp1g', '$rp2g', '$rp1dob', '$rp2dob', '$rp1pin', '$rp2pin', '$rp1add', '$rp2add')";
                                                 if ($conn->query($sql)){
-                                                header("Location: payment.php");
+                                                header("Location: payment.html");
                                                 }
                                                 else{
                                                 echo "There was an error, send the message again!". $sql ."<br>". $conn->error;
