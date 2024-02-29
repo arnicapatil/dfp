@@ -1,0 +1,426 @@
+/*============================== RESPONSIVE CSS ===========================*/
+/*==========================================================================*/
+
+
+/*==================== MOBILE DEVICES QUERY STARTS ========================*/
+/*=======================================================================*/
+
+@media screen and (max-width: 575.98px){
+    
+    /*---------- HEADER SECTION START -----------*/
+    .mini-header .info_links{
+        display: none;
+    }
+    .mini-header .mini_header_links{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .main-header .navbar-logo{
+        width: 200px;
+        height: 100%;
+    }
+    .main-header .navbar-nav .dis-none{
+        display: none;
+    }
+    /*---------- HEADER SECTION END ------------*/
+    
+    
+    /*---------- BANNER SECTION STARTS ---------*/
+    .banner-container .carousel .carousel-wrapper .carousel-wrap{
+        display: none;
+    }
+    .carousel-control-next-icon, .carousel-control-next-icon{
+        width: 16px;
+        height: 16px;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        width: 16px;
+        height: 16px;
+    }
+    /*---------- BANNER SECTION ENDS ------------*/
+    
+    
+    /*---------- SERVICE SECTION START ---------*/
+    .service-container .sr-box {
+        margin: 15px auto;
+        width: 300px;
+        height: 200px;
+    }
+    .service-container .sr-label h3{
+        font-size: 16px;
+        padding:10px 0px;
+    }
+    .service-container .sr-label .my-btn-clr{
+        font-size: 11px;
+        padding: 3px 6px;
+    }
+    .service-container .my-row-st{
+        margin-top: 0px;
+    }
+    .customer-support-container .support-wrap{
+        padding: 50px 20px;
+    }
+    .customer-support-container .support-wrap h2{
+        font-size: 22px;
+    }
+    .customer-support-container .support-wrap p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .customer-support-container .support-wrap .support-btn .btn{
+        padding: 7px 7px;
+        font-size: 10px;
+    }
+    /*---------- SERVICE SECTION ENDS ---------*/
+    
+    
+    /*---------- OUR MISSION SECTION STARTS -----*/
+    .mission-container .mission-title{
+        margin-bottom: 35px;
+        text-align: center;
+    }
+    .mission-container .mr-space{
+        margin-bottom: 35px;
+    }
+    .mission-container .grid-gallery .gallery-img-a{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .mission-container .grid-gallery .gallery-img-b{
+        grid-column: 1/3;
+        grid-row: 2 /3;
+    }
+    .mission-container .grid-gallery .gallery-img-c{
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+     /*---------- OUR MISSION SECTION ENDS --------*/
+    
+    
+    /*----------- PLANS & PRICING SECTION STARTS -------*/
+    .pricing-container .card{
+        margin-bottom: 25px;
+    }
+    /*----------- PLANS & PRICING SECTION ENDS ----------*/
+    
+    
+    /*------------ FOOTER SECTION STARTS ---------------*/
+    .footer-container{
+        overflow: hidden;
+    }
+    .footer-container .footer-logo{
+        text-align: center;
+    }
+    .footer-container .copywrite{
+        text-align: center;
+    }
+    .footer-container .useful-links{
+        padding-left: 40px;
+    }
+    .footer-container .useful-links-wrap{
+        justify-content: center;
+        padding-left: 40px;
+    }
+    .footer-container .footer-info-links{
+        justify-content: center;
+    }
+    .main-footer{
+        display: none;
+    }
+    .main-footer-disable{
+        display: block;
+        margin-top: 50px;
+    }
+    /*-------------- FOOTER SECTION ENDS ------------------*/
+}
+
+/*==================== MOBILE DEVICES QUERY ENDS ========================*/
+/*=======================================================================*/
+
+
+
+
+
+/*=================== LANDSCAPE PHONE DEVICES QUERY START =================*/
+/*=========================================================================*/
+
+@media screen and (min-width:576px) and (max-width: 767.98px){
+
+    /*--------------- HEADER SECTION START ----------------*/
+    .mini-header .info_links{
+        display: none;
+    }
+    .mini-header .mini_header_links{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .main-header .navbar-logo{
+        width: 200px;
+        height: 100%;
+    }
+    .main-header .navbar-nav .dis-none{
+        display: none;
+    }
+    /*---------- HEADER SECTION END ------------*/
+    
+    
+    /*---------- BANNER SECTION STARTS ---------*/
+    .banner-container .carousel .carousel-wrapper .carousel-wrap{
+        display: none;
+    }
+    .carousel-control-next-icon, .carousel-control-next-icon{
+        width: 16px;
+        height: 16px;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        width: 16px;
+        height: 16px;
+    }
+    /*---------- BANNER SECTION ENDS ------------*/
+    
+    
+    /*---------- SERVICE SECTION START ---------*/
+    .service-container .sr-box {
+        margin: 15px auto;
+        width: 300px;
+        height: 200px;
+    }
+    .service-container .sr-label h3{
+        font-size: 16px;
+        padding:10px 0px;
+    }
+    .service-container .sr-label .my-btn-clr{
+        font-size: 11px;
+        padding: 3px 6px;
+    }
+    .service-container .my-row-st{
+        margin-top: 0px;
+    }
+    .customer-support-container .support-wrap{
+        padding: 50px 20px;
+    }
+    .customer-support-container .support-wrap h2{
+        font-size: 22px;
+    }
+    .customer-support-container .support-wrap p{
+        font-size: 16px;
+    }
+    /*---------- SERVICE SECTION ENDS ---------*/
+    
+    
+    /*---------- OUR MISSION SECTION STARTS -----*/
+    .mission-container .mission-title{
+        margin-bottom: 35px;
+        text-align: center;
+    }
+    .mission-container .mr-space{
+        margin-bottom: 35px;
+    }
+    .mission-container .grid-gallery .gallery-img-a{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .mission-container .grid-gallery .gallery-img-b{
+        grid-column: 1/3;
+        grid-row: 2 /3;
+    }
+    .mission-container .grid-gallery .gallery-img-c{
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+    /*---------- OUR MISSION SECTION ENDS --------*/
+    
+    
+    /*----------- PLANS & PRICING SECTION STARTS -------*/
+    .pricing-container .card{
+        margin-bottom: 25px;
+    }
+    /*----------- PLANS & PRICING SECTION ENDS ----------*/
+    
+    
+    /*------------ FOOTER SECTION STARTS ---------------*/
+    .footer-container{
+        overflow: hidden;
+    }
+    .footer-container .footer-logo{
+        text-align: center;
+    }
+    .footer-container .copywrite{
+        text-align: center;
+    }
+    .footer-container .useful-links{
+        padding-left: 40px;
+    }
+    .footer-container .useful-links-wrap{
+        justify-content: center;
+        padding-left: 40px;
+    }
+    .footer-container .footer-info-links{
+        justify-content: center;
+    }
+    .main-footer{
+        display: none;
+    }
+    .main-footer-disable{
+        display: block;
+        margin-top: 50px;
+    }
+    /*-------------- FOOTER SECTION ENDS ------------------*/
+} 
+/*=================== LANDSCAPE PHONE DEVICES QUERY ENDS  ===========================*/
+/*===================================================================================*/
+
+
+
+
+/*===================== IPAD & TABLET DEVICES QUERY START =======================*/
+/*===============================================================================*/
+
+@media screen and (min-width:768px) and (max-width:991.98px){
+    /*---------- HEADER SECTION START ------------*/
+    .mini-header .info_links{
+        display: none;
+    }
+    .mini-header .mini_header_links{
+       justify-content: space-between;
+       flex-wrap: nowrap;
+    }
+    .main-header .navbar-logo{
+        width: 200px;
+        height: 100%;
+    } 
+    .main-header .navbar-nav .dis-none{
+        display: none;
+    }
+    /*---------- HEADER SECTION ENDS ------------*/
+    
+    /*---------- BANNER SECTION STARTS -----------*/
+    .banner-container .carousel .caption-wrapper .price-label{
+        margin-bottom: 8px;
+        width: 216px;
+    }
+    .banner-container .carousel .caption-wrapper .price-label em{
+        font-size: 17px;
+    }
+    .banner-container .carousel .caption-wrapper .main-heading{
+        margin-bottom: 0px;
+    }
+    .banner-container .carousel .caption-wrapper .main-heading h3{
+        font-size: 38px;
+        line-height: 35px;
+    }
+    .banner-container .carousel .caption-wrapper .customer-label{
+        height: 200px;
+        width: 200px;
+    }
+    .banner-container .carousel .caption-wrapper .customer-label h2{
+        font-size: 14px;
+    }
+    .banner-container .carousel .caption-wrapper .customer-label p{
+        font-size: 12px;
+    }
+    .banner-container .carousel .caption-wrapper .view-btn button{
+        padding: 5px 8px;
+    }
+    .banner-container .carousel .caption-wrapper .discount-offer{
+        height: 90px;
+        width: 90px;
+        left: 267px;
+        top: 2px;
+    }
+    .banner-container .carousel .caption-wrapper .discount-offer strong{
+        font-size: 22px;
+    }
+    .banner-container .carousel .caption-wrapper .discount-offer p{
+        font-size: 8px;
+    }
+    .banner-container .carousel .caption-wrapper h2{
+        font-size: 36px;
+    }
+    .banner-container .carousel .caption-wrapper .poly-shape{
+        width: 205px;
+    }
+    .banner-container .carousel .caption-wrapper .poly-shape p{
+        font-size: 14px;
+    }
+    /*--------------BANNER SECTION ENDS ---------------*/
+    
+    /*--------------- SERVICE SECTION START ---------*/
+    .service-container .sr-box {
+        margin: 15px auto;
+        width: 300px;
+        height: 200px;
+    }
+    .service-container .my-row-st{
+        margin-top: 0px;
+    }
+    /*---------- SERVICE SECTION ENDS ---------*/
+    
+    
+     /*---------- OUR MISSION SECTION STARTS -----*/
+    .mission-container .mission-title{
+        margin-bottom: 35px;
+        text-align: center;
+    }
+    .mission-container .mr-space{
+        margin-bottom: 35px;
+    }
+    /*---------- OUR MISSION SECTION ENDS --------*/
+    
+    
+    /*----------- PLANS & PRICING SECTION STARTS -------*/
+    .pricing-container .card{
+        margin-bottom: 25px;
+    }
+    /*----------- PLANS & PRICING SECTION ENDS ----------*/
+    
+    
+    /*------------ FOOTER SECTION STARTS ---------------*/
+    .footer-container .footer-logo{
+        text-align: center;
+    }
+    .footer-container .copywrite{
+        text-align: center;
+    }
+    .footer-container .footer-info-links{
+        justify-content: center;
+    }
+    .main-footer{
+        display: none;
+    }
+    .main-footer-disable{
+        display: block;
+        margin-top: 50px;
+    }
+    /*-------------- FOOTER SECTION ENDS ------------------*/
+    
+}
+/*===================== IPAD & TABLET DEVICES QUERY ENDS =======================*/
+/*===============================================================================*/
+
+
+
+
+/*===================== LARGE DEVICES QUERY START ================================*/
+/*================================================================================*/
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px){
+    /*---------- HEADER SECTION START ------------*/
+    .mini-header .info_links{
+        display: none;
+    }
+    .mini-header .mini_header_links{
+       justify-content: space-between;
+       flex-wrap: nowrap;
+    }
+    .main-header .navbar-logo{
+        width: 200px;
+    }
+    .main-header .navbar-nav .nav-item .nav-link{
+        font-size: 11.5px;
+    }
+    /*---------- HEADER SECTION END ------------*/
+    
+}
+/*===================== LARGE DEVICES QUERY ENDS ================================*/
+/*================================================================================*/
